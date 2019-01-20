@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<title>pickbox | Book</title><link rel="shortcut icon" href="book.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:48px 16px">
+  <h6 class="w3-xxlarge "><img src="book.png" style="width:60px">  BOOK
+    <div  class ="w3-right">
+    <div id="mySidenav" class="sidenav w3-small">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-light-grey"><small>Home</small></a>
+      <a href="Laptop.html" class="w3-bar-item w3-button w3-white"><small>Laptop</small></a>
+      <a href="tv.html" class="w3-bar-item w3-button w3-light-grey"><small>Tv </small></a>
+      <a href="smart.html" class="w3-bar-item w3-button w3-white "><small>smart Watch | smart band</small></a>
+      <a href="google.html" class="w3-bar-item w3-button w3-light-grey"><small>Google</small></a>
+      <a href="apple.html" class="w3-bar-item w3-button  w3-white"><small>Apple</small></a>
+      <a href="kindle.html" class="w3-bar-item w3-button w3-light-grey"><small>Kindle | Echo</small></a>
+
+
+
+    </div>
+    <span class="w3-hide-small" style="font-size:30px;cursor:pointer " onclick="openNav()">&#9776;</span>
+    </div>
+  </h6>
+    <p>  <span class="w3-hide-large" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></p>
+    <div class="w3-padding-32 w3-hide-small w3-hide-small" >
+      <div class="w3-bar w3-border">
+        <a href="index.html" class="w3-bar-item w3-button w3-light-grey"><small>Home</small></a>
+        <a href="Laptop.html" class="w3-bar-item w3-button w3-white"><small>Laptop</small></a>
+        <a href="tv.html" class="w3-bar-item w3-button w3-light-grey"><small>Tv </small></a>
+        <a href="smart.html" class="w3-bar-item w3-button w3-white "><small>smart Watch | smart band</small></a>
+      </div>
+    </div>
+
+  </header>
+  <!-- !PAGE CONTENT! -->
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width:1600px;">
+    <div class="w3-row-padding w3-padding-16" id="computer">
+      <div class="w3-quarter">
+        <img src="book1.png" style="width:80%">
+             <p><b> Just Before I Died: The gripping new psychological thriller</b> </p>
+             <p>flipkart-    <strong>
+               <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true"> 284</i></strong>
+              <a href="https://www.flipkart.com/just-before-died-gripping-new-psychological-thriller-bestselling-author-ice-twins/p/itmf6qyrztmbbut3">
+                <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+               <p>Amazon- <strong>
+                 <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">318</i></strong>
+                 <a href="https://www.amazon.in/gp/product/0008306796/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=0008306796&linkCode=as2&tag=pickboxindia-21&linkId=7226efc5dbbbca660d4f028858f9ee48"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                 <b>BUY NOW</b></button> </a></p>
+           </div>
+
+      <div class="w3-quarter">
+        <img src="book2.png" style="width:80%">
+             <p><b> Best Sellers - Because Everything is About Selling</b> </p>
+             <p>flipkart-    <strong>
+               <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">250</i></strong>
+              <a href="https://www.flipkart.com/best-sellers-because-everything-selling/p/itmdygkpxqsjpuyp?pid=9789383359301&lid=LSTBOK9789383359301MWLBZK&marketplace=FLIPKART&srno=s_1_10&otracker=AS_Query_HistoryAutoSuggest_1_0&fm=SEARCH&iid=44db293c-03a5-4409-b804-e88dc5975fba.9789383359301.SEARCH&ppt=SearchPage&ppn=Search&ssid=7r44orwcn40000001547988325392&qH=b699a7bfe0a8bd81">
+                <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+               <p>Amazon- <strong>
+                 <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">250</i></strong>
+                 <a href="https://www.amazon.in/gp/product/9383359307/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=9383359307&linkCode=as2&tag=pickboxindia-21&linkId=fc57d463399efe666f2ac37e02e2d04c"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                 <b>BUY NOW</b></button> </a></p>
+      </div>
+      <div class="w3-quarter">
+        <img src="book3.png" style="width:80%">
+       <p><b>The Science of Getting Rich  (English,.) </b> </p>
+       <p><br>flipkart-    <strong>
+         <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true"> 110</i></strong>
+        <a href="https://www.flipkart.com/science-getting-rich/p/itmf4t38wbh2gpr6?pid=9789380078588&lid=LSTBOK9789380078588EIDOQO&marketplace=FLIPKART&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_0_13&fm=SEARCH&iid=9f329bb4-0160-448d-973c-b99c2410bbcc.9789380078588.SEARCH&ppt=Homepage&ppn=Homepage&ssid=sui4d3ev1s0000001547988584008&qH=dcde4b4379fbe21a">
+          <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+         <p>Amazon-<strong>
+           <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">109</i></strong>
+           <a href="https://www.amazon.in/gp/product/8180320979/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=8180320979&linkCode=as2&tag=pickboxindia-21&linkId=fd1eca3a2b54bda08a23b49d18677d35">
+             <button class="w3-button w3-round w3-tiny w3-right w3-teal">
+           <b>BUY NOW</b></button> </a></p>
+      </div>
+      <div class="w3-quarter">
+        <img src="book4.png" style="width:80%">
+           <p><b>The Silent Wife: The gripping bestselling novel of betrayal</b> </p>
+           <p>flipkart-    <strong>
+             <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">254</i></strong>
+            <a href="https://www.flipkart.com/apple-iphone-xs-space-grey-64-gb/p/itmf944ees7rprte">
+              <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+             <p>Amazon-  <strong>
+               <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">325</i></strong>
+               <a href="https://www.amazon.in/gp/product/0755399862/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=0755399862&linkCode=as2&tag=pickboxindia-21&linkId=b584fd32e355bf3cb8328b40733de7ad"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+               <b>BUY NOW</b></button> </a></p>
+      </div>
+    </div>
+
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding w3-padding-16">
+      <div class="w3-quarter">
+        <img src="book5.png" style="width:80%">
+          <p><b>First Book - Practical Tips from Best-selling Authors</b> </p>
+          <p>flipkart-    <strong>
+            <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true"> 299</i></strong>
+           <a href="https://www.flipkart.com/first-book-practical-tips-best-selling-authors-writing-your/p/itmez5xhx8dn96f9?pid=9781946204516&lid=LSTBOK97819462045166RRVME&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=bb3df043-9cb5-4831-96d5-c05901e458f0.9781946204516.SEARCH&ppt=SearchPage&ppn=Search&ssid=8kyvuzhets0000001547989064486&qH=c763f6aaba6d22a3">
+             <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+            <p>Amazon-  <strong>
+              <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">70</i></strong>
+              <a href="https://www.amazon.in/gp/product/B06XZ1WRR7/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B06XZ1WRR7&linkCode=as2&tag=pickboxindia-21&linkId=138ab569d0b079c076903d6ad7521984"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+              <b>BUY NOW</b></button> </a></p>
+      </div>
+      <div class="w3-quarter">
+        <img src="book6.png" style="width:80%">
+                  <p><b>Proofreading Secrets of Best-Selling Authors  </b>
+                  <p>flipkart-    <strong>
+                    <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">599</i></strong>
+                   <a href="https://www.flipkart.com/proofreading-secrets-best-selling-authors/p/itmdtpftmf6y5szh?pid=9781938499340&lid=LSTBOK97819384993401Y1AEK&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=0bb1b247-7bea-47cd-ae98-f5ed759a2a72.9781938499340.SEARCH&ppt=ProductPage&ppn=ProductPage&ssid=56pi4o9iqo0000001547989277152&qH=307f1a12a89b9302">
+                     <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+                    <p>Amazon-  <strong>
+                      <i class="fa fa-  w3-center w3-text-red" aria-hidden="true">379</i></strong>
+                      <a href="https://www.amazon.in/gp/product/B01IKX5JQS/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01IKX5JQS&linkCode=as2&tag=pickboxindia-21&linkId=1b56163855eca139c067a900e5882aa4"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                      <b>BUY NOW</b></button> </a></p>
+      </div>
+      <div class="w3-quarter">
+        <img src="book7.png" style="width:80%">
+           <p> The Guns of August: The Classic Bestselling Account of the Outbreak</b> </p>
+           <p><br>flipkart-    <strong>
+             <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">479</i></strong>
+            <a href="https://www.flipkart.com/guns-august-classic-bestselling-account-outbreak-first-world-war/p/itmesbhgnm6dshzq?pid=9780241968215&lid=LSTBOK9780241968215B4D1ZE&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=28cb2b41-072f-4755-9169-2c82df98738f.9780241968215.SEARCH&ppt=SearchPage&ppn=Search&ssid=e86gwzhtc00000001547989480148&qH=2e49f9b23ec696c3">
+              <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+             <p>Amazon-  <strong>
+               <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">479</i></strong>
+               <a href="https://www.amazon.in/gp/product/0241968216/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=0241968216&linkCode=as2&tag=pickboxindia-21&linkId=ea67ccbec21ffb5ea21984adaf13cc41"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+               <b>BUY NOW</b></button> </a></p>
+      </div>
+      <div class="w3-quarter">
+        <img src="book8.png" style="width:80%">
+           <p><b>The Blue Nowhere  (English, Paperback, Jeffery Deaver )</b> </p>
+           <p>flipkart-    <strong>
+             <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">529</i></strong>
+            <a href="https://www.flipkart.com/the-blue-nowhere/p/itmdz6w5pczyjggn?pid=9780671042264&lid=LSTBOK9780671042264ZRSMKW&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=6a29bc99-bb37-48d2-9466-a5db1e4075b7.9780671042264.SEARCH&ppt=SearchPage&ppn=Search&ssid=7ekhhq2lrk0000001547989852135&qH=70c9bbb3d4fb3916">
+              <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+             <p>Amazon-  <strong>
+               <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">324</i></strong>
+               <a href="https://www.amazon.in/gp/product/1473631971/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=1473631971&linkCode=as2&tag=pickboxindia-21&linkId=1b93632c50dc5d0b679dedc4ed432f92">
+                 <button class="w3-button w3-round w3-tiny w3-right w3-teal">
+               <b>BUY NOW</b></button> </a></p>
+      </div>
+    </div>
+
+<div class="w3-hide-small w3-hide-middle w3-hide-large"
+<!-- Second Photo Grid-->
+<div class="w3-row-padding w3-padding-16 ">
+  <div class="w3-quarter">
+    <img src="book9.png" style="width:80%">
+           <p><b></b> </p>
+           <p><br>flipkart-    <strong>
+             <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">82,999</i></strong>
+            <a href="https://www.flipkart.com/selling-today-thirteenth/p/itmczyqdup7nbbkf?pid=9789332574137&lid=LSTBOK9789332574137SJYK0G&marketplace=FLIPKART&srno=s_1_3&otracker=search&fm=SEARCH&iid=ae5f40a0-dba9-4fd5-825c-4a8a50ba4d53.9789332574137.SEARCH&ppt=SearchPage&ppn=Search&ssid=dty50fv2k00000001547990400315&qH=be3182ca23f90f2c">
+              <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+             <p>Amazon-  <strong>
+               <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true"> 74,999</i></strong>
+               <a href="https://www.amazon.in/gp/product/B072LPF91D/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B072LPF91D&linkCode=as2&tag=pickboxindia-21&linkId=9f71fe9bf2df62d75dca30c0ac218d7b"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+               <b>BUY NOW</b></button> </a></p>
+  </div>
+  <div class="w3-quarter">
+    <img src="book10.png" style="width:80%">
+            <p><b>Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)</b> </p>
+            <p>flipkart-    <strong>
+              <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">63,990</i></strong>
+             <a href="https://www.flipkart.com/apple-macbook-air-core-i5-5th-gen-8-gb-128-gb-ssd-mac-os-sierra-mqd32hn-a-a1466/p/itmevcpqqhf6azn3">
+               <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+              <p>Amazon-  <strong>
+                <i class="fa fa-in  w3-center w3-bold" aria-hidden="true"> unavailable</i></strong>
+                <a href="https://www.amazon.in/"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                <b>BUY NOW</b></button> </a></p>
+  </div>
+  <div class="w3-quarter">
+    <img src="watch3.png" style="width:80%">
+  <p><b>Apple Watch Series 3 42 mm Silver Aluminium White Sport Band(GPS)  (White Strap Regular)</b> </p>
+  <p>flipkart-    <strong>
+    <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">30,900</i></strong>
+   <a href="https://www.flipkart.com/apple-watch-series-3-gps-42-mm-silver-aluminium-case-fog-sport-band/p/itmexvpgphytgjvx">
+     <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+    <p>Amazon-  <strong>
+      <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true"></i></strong>
+      <a href="https://www.amazon.in/"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+      <b>BUY NOW</b></button> </a></p>
+  </div>
+  <div class="w3-quarter">
+    <img src="micpro.png" style="width:80%">
+             <p><b>Apple Macbook Pro Core i7 8th Gen -(16 GB/512 GB SSD/mo java/4GB Graphics) </b> </p>
+             <p>flipkart-    <strong>
+               <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">2,59,900</i></strong>
+              <a href="https://www.flipkart.com/apple-macbook-pro-core-i7-8th-gen-16-gb-512-gb-ssd-mac-os-mojave-4-graphics-mr942hn-a/p/itmf9egnttkqbgm8">
+                <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+               <p>Amazon-  <strong>
+                 <i class="fa fa-  w3-center w3-text-red" aria-hidden="true">unavailable</i></strong>
+                 <a href="https://www.amazon.in/"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                 <b>BUY NOW</b></button> </a></p>
+     </div>
+</div>
+
+
+
+<!-- Second Photo Grid-->
+<div class="w3-row-padding w3-padding-16 ">
+  <div class="w3-quarter">
+    <img src="watch4.png" style="width:80%">
+            <p><b>Apple Watch Series 4 GPS 44 mm Space Grey Aluminium Case with Black Sport Band</b> </p>
+            <p>flipkart-    <strong>
+              <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">43,900</i></strong>
+             <a href="https://www.amazon.in/gp/product/B07JB8DWGT/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07JB8DWGT&linkCode=as2&tag=pickboxindia-21&linkId=50c85e95caa97e78b8fc4db02662f860">
+               <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+              <p>Amazon-  <strong>
+                <i class="fa fa-inr  w3-center w3-text-" aria-hidden="true">43,900.00</i></strong>
+                <a href="https://www.amazon.in/gp/product/B07JB8DWGT/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07JB8DWGT&linkCode=as2&tag=pickboxindia-21&linkId=50c85e95caa97e78b8fc4db02662f860"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                <b>BUY NOW</b></button> </a></p>
+  </div>
+  <div class="w3-quarter">
+    <img src="micpro.png" style="width:80%">
+          <p><b>
+Apple Macbook Pro Core i7 8th Gen-(16 GB/256 GB SSD/OS Mojave/4 GB Graphics)</b> </p>
+          <p>flipkart-    <strong>
+            <i class="fa fa-in  w3-center w3-bold" aria-hidden="true">unavailable</i></strong>
+           <a href="https://www.flipkart.in/">
+             <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+            <p>Amazon-  <strong>
+              <i class="fa fa-inr  w3-center w3-text-" aria-hidden="true">159,990.</i></strong>
+              <a href="https://www.amazon.in/gp/product/B07FLGJ89V/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07FLGJ89V&linkCode=as2&tag=pickboxindia-21&linkId=8f7a1156bf5f855b80865045558717c3"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+              <b>BUY NOW</b></button> </a></p>
+  </div>
+  <div class="w3-quarter">
+    <img src="watch3gps.png" style="width:80%">
+              <p><b>Apple Watch Series 3 GPS + Cellular - 42 mm Space Grey Aluminium Case with Sport Band</b>
+              <p>flipkart-    <strong>
+                <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">28,900</i></strong>
+               <a href="https://www.amazon.in/gp/product/B075R9P7H8/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B075R9P7H8&linkCode=as2&tag=pickboxindia-21&linkId=55a208df99389a2c2c51c63aa91787a5">
+                 <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+                <p>Amazon-  <strong>
+                  <i class="fa fa-inr  w3-center w3-text-d" aria-hidden="true">28,900</i></strong>
+                  <a href="https://www.amazon.in/gp/product/B075R9P7H8/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B075R9P7H8&linkCode=as2&tag=pickboxindia-21&linkId=55a208df99389a2c2c51c63aa91787a5"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                  <b>BUY NOW</b></button> </a></p>
+  </div>
+  <div class="w3-quarter">
+    <img src="ipad6.png" style="width:80%"><br><br>
+                   <p><b>Apple iPad (6th Gen) 32 GB 9.7 inch with Wi-Fi</b> </p>
+                   <p>flipkart-    <strong>
+                     <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true"> 23,999</i></strong>
+                    <a href="https://www.flipkart.com/apple-ipad-6th-gen-32-gb-9-7-inch-wi-fi-only-space-grey/p/itmf455ethmxagzn">
+                      <button class="w3-button w3-round w3-tiny w3-right w3-red">BUY NOW</button> </p></a>
+                     <p>Amazon-  <strong>
+                       <i class="fa fa-inr  w3-center w3-bold" aria-hidden="true">  23,999</i></strong>
+                       <a href="https://www.amazon.in/gp/product/B07C4YKR3J/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07C4YKR3J&linkCode=as2&tag=pickboxindia-21&linkId=30e955f00b0803a4394125a0520fc6e8"><button class="w3-button w3-round w3-tiny w3-right w3-teal">
+                       <b>BUY NOW</b></button> </a></p>
+     </div>
+</div>
+</div>
+<br>
+<!-- Footer -->
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+  <div class=" w3-center w3-padding-24"><h3 id="fotorlogo"><b>Pickbox.in</b></h3>
+  <p id="fotorlogo"><small>Copyright 2019 pickbox | All rights reserved.</small></div>
+  </footer>
+
+</body>
+</html>
